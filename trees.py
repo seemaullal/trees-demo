@@ -7,7 +7,7 @@ from collections import deque
 class Node:
     """Node in a tree."""
 
-    # never use an mutable default arg like on line 8
+    # never use an mutable default arg like on line 11
     # def __init__(self, data, children = []):
     def __init__(self, data, children = None):
         if not children:
